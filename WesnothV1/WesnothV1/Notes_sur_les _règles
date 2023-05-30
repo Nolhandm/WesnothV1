@@ -1,0 +1,11 @@
+Revenu
+La formule pour déterminer le revenu par tour est
+2 + villages - maximum(0, entretien - villages)
+où l'entretien est égal à la somme des niveaux de toutes vos unités non fidèles.
+Si l'entretien dépasse le nombre de villages possédés + 2, vous commencez à perdre de l'or. S'il est égal à ce nombre, vous ne gagnez ni ne perdez rien.
+//Formule trouvées dans les règles du jeu : https://www.wesnoth.org/manual/1.14/manual.fr.html
+
+
+Plateau hexagonal, aide : https://www.developpez.net/forums/d1278348/c-cpp/c/plateau-jeu-hexagonal/
+
+Ajouter une fonction Board_creation qui crée le plateau
